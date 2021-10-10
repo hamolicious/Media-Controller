@@ -1,0 +1,35 @@
+/*
+#eff9d6
+#ba5044
+#7a1c4b
+#1b0326
+*/
+
+body {
+    background-color: #1b0326;
+    text-align: center;
+}
+
+.fullscreen {
+    position: absolute;
+    top: 25%;
+    right: 0px;
+    width: 100%;
+    height: 50%;
+}
+
+button {
+    color: #eff9d6;
+    width: 100%;
+    height: 100%;
+    font-size: 200%;
+    border-radius: 10%;
+    background: rgb(186, 80, 68);
+    background: linear-gradient(180deg, rgba(186, 80, 68, 1) 0%, rgba(122, 28, 75, 1) 100%);
+    border: none;
+}
+
+button img {
+    width: 70%;
+    height: 70%;
+}

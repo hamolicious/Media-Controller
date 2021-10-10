@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="icon" type="image/png" href="static/ico/favicon.ico">
+    <script src="static/js/api.js"></script>
+</head>
+
+<body>
+    <table class="fullscreen">
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="ApiCall('/vlmup')"><img src="static/svg/volume-up.svg"/></button>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="ApiCall('/prev')"><img src="static/svg/track-prev.svg" /></button>
+            </td>
+            <td>
+                <button onclick="ApiCall('/pause')"><img src="static/svg/pause.svg" /></button>
+            </td>
+            <td>
+                <button onclick="ApiCall('/next')"><img src="static/svg/track-next.svg" /></button>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="ApiCall('/vlmdown')"><img src="static/svg/volume-down.svg" /></button>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button onclick="ApiCall('/mute')"><img src="static/svg/volume-mute.svg" /></button></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>

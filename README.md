@@ -8,6 +8,7 @@ After running `main.py`, a website will be hosed on your local network, it will 
 
 You can drop a `.bat` file in the startup folder `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp` that launches the script on startup (make sure to use pythonw.exe to launch the script to run it without a console window), an example file is in the `scripts/` folder.
 
-
+## TODO
+- [ ] Volume Level Feedback
 
 

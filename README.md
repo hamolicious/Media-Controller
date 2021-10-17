@@ -10,5 +10,6 @@ You can drop a `.bat` file in the startup folder `C:\ProgramData\Microsoft\Windo
 
 ## TODO
 - [ ] Volume Level Feedback
+- [ ] IP/MAC address whitelisting
 
 
